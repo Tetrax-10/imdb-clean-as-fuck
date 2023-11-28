@@ -1,0 +1,111 @@
+!-------------------------------- IMDB --------------------------------
+
+!---------- HOME PAGE ----------
+! big horizontally scrolable banners
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:not(.page-grid)
+! featured today
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(div#featured-today)
+! episode ratings feature
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(iframe)
+! more to watch
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(section.more-to-watch)
+! exclusive videos/imdb originals
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(div#imdb-originals)
+! what to watch
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center div[data-testid="whatToWatch_title"]
+! in theaters/top box office/comming soon to theaters
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div:has(#in-theaters)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div:has(#top-box-office)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div:has(#coming-soon-movie)
+! editors picks/born today/top news
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(#editors-picks)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(#born-today)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center >div.ipc-page-grid:has(#top-news)
+!---------- HOME PAGE ----------
+
+!---------- TITLE BAR ----------
+! title bar imdb pro button
+imdb.com##nav#imdbHeader .navbar__imdbpro
+! title bar language selector
+imdb.com##div:has( > label[aria-label="Toggle language selector"])
+! title bar use app button
+m.imdb.com##a[aria-label="Use app"]
+!---------- TITLE BAR ----------
+
+!---------- FOOTER ----------
+! footer
+imdb.com##footer.imdb-footer
+!---------- FOOTER ----------
+
+!---------- NAV BAR ----------
+! menu => watch/awards and events/celebs/community
+imdb.com##div.navlinkcat:has(input[data-category-id="video"])
+imdb.com##div.navlinkcat:has(#nav-link-categories-awards)
+imdb.com##div.navlinkcat:has(#nav-link-categories-celebs)
+imdb.com##div.navlinkcat:has(#nav-link-categories-comm)
+! nav bar imdb pro
+m.imdb.com##a[href*="https://pro.imdb"]
+! nav bar select language
+m.imdb.com##label[aria-label="language-select"]
+!---------- NAV BAR ----------
+
+!---------- MOVIE/TV PAGE ----------
+! just below nav header => episodes, cast & crew, user reviews, faq, imdb pro, share etc...
+imdb.com##div[data-testid="hero-subnav-bar-left-block"]
+imdb.com##div[data-testid="hero-subnav-bar-right-block"]
+! right side more to explore
+imdb.com##section.right-rail-more-to-explore
+! awards won (just under movie info)
+imdb.com##section[cel_widget_id="StaticFeature_Awards"]
+! [hash] gallery about that movie/tv
+imdb.com##.sc-a2dd587f-0.cXRfLx
+! repeated movie info
+imdb.com##section[data-testid="title-cast"] > ul
+! See production info at IMDbPro
+imdb.com##li:has(#ProUpsellLink)
+! unwanted sections
+imdb.com##section[data-testid="videos-section"]
+imdb.com##section[data-testid="DidYouKnow"]
+imdb.com##section[data-testid="Storyline"]
+imdb.com##section[data-testid="UserReviews"]
+imdb.com##section[data-testid="News"]
+imdb.com##section[data-testid="BoxOffice"]
+imdb.com##section[data-testid="contribution"]
+imdb.com##section[cel_widget_id="StaticFeature_FAQ"]
+imdb.com##section:has( > div > div[data-testid="top-picks--title"])
+! top rated episodes info
+imdb.com##section > div[data-testid="episodes-header"]
+imdb.com##section > div[data-testid="episodes-header"] + div > div:not([data-testid="episodes-browse-episodes"])
+! [hash] streaming platform
+imdb.com##.sc-6ee131bc-0.gbsbQW
+m.imdb.com##.sc-cbc7ae81-4.iCWOBC
+! videos, photos button
+m.imdb.com##.sc-e226b0e3-9.bkRdrN
+! review scores under add to watchlist
+imdb.com##ul[data-testid="reviewContent-all-reviews"]
+!---------- MOVIE/TV PAGE ----------
+
+!---------- LIST PAGE ----------
+! sidebar in list page => crearw new list/tell your friends/feedback/your list
+imdb.com###content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget)
+! recently viewed
+imdb.com##.recently-viewed
+!---------- LIST PAGE ----------
+
+!---------- SEARCH PAGE ----------
+! right side bar more result, advanced search
+imdb.com##div:has( > section[data-testid="more-results-section"])
+imdb.com##div:has( > section[data-testid="advanced-search-section"])
+! exact match
+imdb.com##.results-section-exact-match-btn
+!---------- SEARCH PAGE ----------
+
+!---------- TOP 250 PAGES ----------
+! more to explore and other shits
+imdb.com##section[data-testid="chart-layout-sidebar"] > div[class]
+imdb.com##section[data-testid="chart-layout-sidebar"] > div[data-testid]
+imdb.com##.navlinkcat__listContainerInner > ul > a:has-text(/India Movie Spotlight|Movie News|Showtimes & Tickets|on TV & Streaming|TV News/i)
+!---------- TOP 250 PAGES ----------
+
+!-------------------------------- IMDB --------------------------------
+
