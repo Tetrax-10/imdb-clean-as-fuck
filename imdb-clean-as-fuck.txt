@@ -76,7 +76,7 @@ imdb.com##section:has( > div > div[data-testid="top-picks--title"])
 ! top rated episodes info
 imdb.com##section > div[data-testid="episodes-header"]
 imdb.com##section > div[data-testid="episodes-header"] + div > div:not([data-testid="episodes-browse-episodes"])
-! [hash] streaming platform
+! [hash] watch option above add to watchlist
 imdb.com##.sc-6ee131bc-0.gbsbQW
 m.imdb.com##.sc-cbc7ae81-4.iCWOBC
 ! videos, photos button
@@ -89,7 +89,11 @@ imdb.com##ul[data-testid="reviewContent-all-reviews"]
 ! sidebar in list page => crearw new list/tell your friends/feedback/your list
 imdb.com###content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget)
 ! recently viewed
-imdb.com##.recently-viewed
+imdb.com###rvi-div > .recently-viewed
+! director, stars in list items
+imdb.com##div.lister-item-content > p:has(a[href*="https://www.imdb.com/name/"])
+! watch option in list items
+imdb.com##div.lister-item-content > div.wtw-option-standalone
 !---------- LIST PAGE ----------
 
 !---------- SEARCH PAGE ----------
