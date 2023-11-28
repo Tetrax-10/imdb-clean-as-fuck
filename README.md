@@ -6,6 +6,8 @@ This is basically IMDB with just Movies and TV shows and nothing else.
 
 <br>
 
+<br>
+
 👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Tetrax-10/imdb-clean-as-fuck/main/imdb-clean-as-fuck.txt&title=IMDB%20Clean%20as%20Fuck)** to Install
 
 <br>
@@ -19,6 +21,8 @@ This is basically IMDB with just Movies and TV shows and nothing else.
 2. #### Does this work on mobile version of IMDB?
 
     Yes, just install [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) or [Kiwi](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) browser on android and install Ublock Orgin and this filter
+
+<br>
 
 ### Contribution
 
