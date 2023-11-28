@@ -4,21 +4,25 @@ Hate the _promotions, interviews, celebrity news, awards, exclusives_ and etc...
 
 This is basically IMDB with just Movies and TV shows and nothing else.
 
-**[click me](https://subscribe.adblockplus.org/?location=&title=IMDB Clean as Fuck)** to install
+<br>
+
+👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Tetrax-10/imdb-clean-as-fuck/main/imdb-clean-as-fuck.txt&title=IMDB%20Clean%20as%20Fuck)** to Install
+
+<br>
 
 ### FAQ
 
-1. ##### Does this filter block ads?
+1. #### Does this filter block ads?
 
     No, Ublock Orgin will take care of that. This filter just hides elements that are not important or releated to Movies and TV shows.
 
-2. ##### Does this work on mobile version of IMDB?
+2. #### Does this work on mobile version of IMDB?
 
     Yes, just install [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) or [Kiwi](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) browser on android and install Ublock Orgin and this filter
 
-### contribution
+### Contribution
 
-Seeing something thats not related to Movies or TV shows? please create an issue or make a pull request with proper comments and screenshots.
+Seeing something thats not related to Movies or TV shows? Please create an [issue](https://github.com/Tetrax-10/imdb-clean-as-fuck/issues/new/choose) or make a [pull request](https://github.com/Tetrax-10/imdb-clean-as-fuck/pulls) with proper comments and screenshots.
 
 </br>
 
