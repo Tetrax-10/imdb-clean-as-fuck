@@ -8,7 +8,7 @@ This is basically IMDB with just Movies and TV shows and nothing else.
 
 <br>
 
-👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Tetrax-10/imdb-clean-as-fuck/main/imdb-clean-as-fuck.txt&title=IMDB%20Clean%20as%20Fuck)** to Install
+👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck.txt&title=IMDB%20Clean%20as%20Fuck)** to Install
 
 <br>
 
