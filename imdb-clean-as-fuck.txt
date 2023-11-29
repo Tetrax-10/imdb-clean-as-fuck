@@ -3,24 +3,12 @@
 !---------- HOME PAGE ----------
 ! big horizontally scrolable banners
 imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:not(.page-grid)
-! featured today
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(div#featured-today)
-! episode ratings feature
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(iframe)
-! more to watch
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(section.more-to-watch)
-! exclusive videos/imdb originals
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(div#imdb-originals)
+! featured today/episode ratings feature/more to watch/exclusive videos|imdb originals/editors picks/born today/top news
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(div#featured-today, iframe, section.more-to-watch, div#imdb-originals, #editors-picks, #born-today, #top-news)
 ! what to watch
 imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center div[data-testid="whatToWatch_title"]
 ! in theaters/top box office/comming soon to theaters
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div:has(#in-theaters)
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div:has(#top-box-office)
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div:has(#coming-soon-movie)
-! editors picks/born today/top news
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(#editors-picks)
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(#born-today)
-imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div.ipc-page-grid:has(#top-news)
+imdb.com##.ipc-page-content-container--full > .ipc-page-content-container--center > div:has(#in-theaters, #top-box-office, #coming-soon-movie)
 !---------- HOME PAGE ----------
 
 !---------- TITLE BAR ----------
@@ -39,10 +27,7 @@ imdb.com##footer.imdb-footer
 
 !---------- NAV BAR ----------
 ! menu => watch/awards and events/celebs/community
-imdb.com##div.navlinkcat:has(input[data-category-id="video"])
-imdb.com##div.navlinkcat:has(#nav-link-categories-awards)
-imdb.com##div.navlinkcat:has(#nav-link-categories-celebs)
-imdb.com##div.navlinkcat:has(#nav-link-categories-comm)
+imdb.com##div.navlinkcat:has(input[data-category-id="video"], #nav-link-categories-awards, #nav-link-categories-celebs, #nav-link-categories-comm)
 ! nav bar imdb pro
 m.imdb.com##a[href*="https://pro.imdb"]
 ! nav bar select language
@@ -104,8 +89,7 @@ imdb.com##div.lister-item-content > div.wtw-option-standalone
 
 !---------- SEARCH PAGE ----------
 ! right side bar more result, advanced search
-imdb.com##div:has( > section[data-testid="more-results-section"])
-imdb.com##div:has( > section[data-testid="advanced-search-section"])
+imdb.com##div:has( > section[data-testid="more-results-section"], > section[data-testid="advanced-search-section"])
 ! exact match
 imdb.com##.results-section-exact-match-btn
 !---------- SEARCH PAGE ----------
