@@ -141,11 +141,27 @@ imdb.com##.navlinkcat__listContainerInner > ul > a:has-text(/India Movie Spotlig
 
 !---------- TOP 250 PAGES ----------
 
+!---------- MOST POPULAR MOVIES/TV ----------
+
+imdb.com##.ipc-poster-card .gli-meter-title-header
+
+!---------- MOST POPULAR MOVIES/TV ----------
+
 !---------- FAN FAVORITES ----------
 
 ! [hash] removes grid layout of watch guide, fan favorites, top picks, from your watchlist, most popular
 imdb.com##.ipc-page-grid.ipc-page-grid--bias-left:has(.jFAAHq)
 
 !---------- FAN FAVORITES ----------
+
+!---------- MISC ----------
+
+! poster action button => trailer, info, watchlist
+imdb.com##div.ipc-poster-card__actions
+
+! cards rate button
+imdb.com##.ipc-poster-card .ipc-rate-button
+
+!---------- MISC ----------
 
 !-------------------------------- IMDB --------------------------------
