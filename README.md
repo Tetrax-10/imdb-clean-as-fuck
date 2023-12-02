@@ -125,16 +125,6 @@ This is basically IMDB with just Movies and TV shows and nothing else.
 
 <br>
 
-### Better styles (optional)
-
-Paste the below code in any JavaScript injector extension ([recommended extension](https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld))
-
-```js
-document.body.appendChild(document.createElement("style")).textContent = "@import url('https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-better-styles.css');"
-```
-
-<br>
-
 ### Contribution
 
 Seeing something thats not related to Movies or TV shows? Please create an [issue](https://github.com/Tetrax-10/imdb-clean-as-fuck/issues/new/choose) or make a [pull request](https://github.com/Tetrax-10/imdb-clean-as-fuck/pulls) with proper comments and screenshots.
