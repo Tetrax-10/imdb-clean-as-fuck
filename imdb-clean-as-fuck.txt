@@ -143,6 +143,7 @@ imdb.com##.navlinkcat__listContainerInner > ul > a:has-text(/India Movie Spotlig
 
 !---------- MOST POPULAR MOVIES/TV ----------
 
+! popularity info
 imdb.com##.ipc-poster-card .gli-meter-title-header
 
 !---------- MOST POPULAR MOVIES/TV ----------

@@ -1,0 +1,72 @@
+/* watchlist button */
+.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1,
+.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__btn,
+.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__iconBtn,
+.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1,
+.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__btn,
+.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__iconBtn {
+    background: #f5c518 !important;
+    color: #000 !important;
+    border-radius: 10px !important;
+}
+
+/* cast people images */
+section[data-testid="title-cast"] .ipc-media--avatar-circle,
+section[data-testid="title-cast"] .ipc-avatar,
+section[data-testid="title-cast"] .ipc-avatar .ipc-lockup-overlay,
+section[data-testid="title-cast"] .ipc-avatar .ipc-lockup-overlay__screen {
+    border-radius: 5px !important;
+}
+
+/* photos in movies/tv */
+section[data-testid="Photos"] .ipc-image {
+    border-radius: 5px !important;
+}
+
+/* better cards */
+.ipc-poster-card {
+    border-radius: 8px !important;
+}
+.ipc-poster-card .ipc-media__img {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 5px !important;
+}
+.ipc-poster-card .ipc-watchlist-ribbon__bg {
+    border-top-left-radius: 8px !important;
+}
+/* [hash] (hash reason: top 250 cards has that hash) cards info */
+.ipc-poster-card .ipc-poster-card__title:not(.kXDhzW) {
+    text-align: center !important;
+}
+.ipc-poster-card__rating-star-group {
+    align-self: center !important;
+}
+/* ratings in cards */
+.ipc-rating-star-group {
+    position: absolute !important;
+    right: 0 !important;
+    align-items: center !important;
+    background-color: rgba(var(--ipt-baseAlt-shade1-rgb), 0.75) !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 10px !important;
+}
+.ipc-rating-star-group .ipc-rating-star--currentUser,
+.ipc-rating-star-group .ipc-rating-star--imdb {
+    padding: 0 5px !important;
+    margin-right: unset !important;
+}
+/* card title */
+a.ipc-poster-card__title > span {
+    vertical-align: -webkit-baseline-middle !important;
+}
+a.ipc-poster-card__title {
+    white-space: nowrap !important;
+    max-width: 180px !important;
+}
+a.ipc-poster-card__title.ipc-poster-card__title--clickable:hover {
+    text-decoration: none !important;
+}
+/* extra padding */
+.ipc-poster-card {
+    padding-bottom: 0 !important;
+}
