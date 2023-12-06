@@ -63,6 +63,24 @@ This is basically IMDB with just Movies and TV shows and nothing else.
   </tr>
  </table>
 
+### Better Styles
+
+ <table>
+  <tr align="center">
+    <td>Stock IMDB</td>
+     <td>Better styles</td>
+  </tr>
+  <tr>
+    <td><img src="./assets/better-styles/cards.png"></td>
+    <td><img src="./assets/better-styles/cards-better-styles.png"></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/better-styles/cast.png"></td>
+    <td><img src="./assets/better-styles/cast-better-styles.png"></td>
+  </tr>
+ </table>
+ and more...
+
 </br>
 
 ### FAQ
