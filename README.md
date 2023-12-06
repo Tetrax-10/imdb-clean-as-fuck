@@ -6,7 +6,9 @@ This is basically IMDB with just Movies and TV shows and nothing else.
 
 </br>
 
-👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck.txt&title=IMDB%20Clean%20as%20Fuck)** to Install the filterlist
+👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck-with-better-styles.txt&title=IMDB%20Clean%20as%20Fuck)** to Install the filter list with better styles (Recommended)
+(or)
+👉 **[CLICK ME](https://subscribe.adblockplus.org/?location=https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck.txt&title=IMDB%20Clean%20as%20Fuck)** to Install the filter list alone (Removes bloat but no extra styling)
 
 <hr>
 

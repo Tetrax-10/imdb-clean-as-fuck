@@ -1,0 +1,117 @@
+// add to watchlist button
+.ipc-btn--theme {
+    &-base,
+    &-baseAlt {
+        &:not(:disabled) {
+            &.ipc-btn--core-accent1 {
+                &,
+                .ipc-split-button__btn,
+                .ipc-split-button__iconBtn {
+                    background: #f5c518;
+                    color: #000000;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+.ipc-page-content-container--full {
+    .ipc-page-content-container.ipc-page-content-container--center {
+        // cast people images
+        section[data-testid="title-cast"] {
+            .ipc-media--avatar-circle {
+                border-radius: 5px;
+            }
+            .ipc-avatar {
+                &,
+                .ipc-lockup-overlay,
+                .ipc-lockup-overlay__screen {
+                    @extend .ipc-media--avatar-circle;
+                }
+            }
+        }
+
+        // photos
+        section[data-testid="Photos"] {
+            .ipc-media--base,
+            .ipc-image {
+                border-radius: 5px;
+            }
+        }
+
+        // unwanted sections
+        // videos
+        section[data-testid="videos-section"],
+        // did you know
+        section[data-testid="DidYouKnow"],
+        // storyline
+        section[data-testid="Storyline"],
+        // user reviews
+        section[data-testid="UserReviews"],
+        // news
+        section[data-testid="News"],
+        // box office
+        section[data-testid="BoxOffice"],
+        // contribution
+        section[data-testid="contribution"],
+        // faq
+        section[cel_widget_id="StaticFeature_FAQ"],
+        // top picks
+        section:has(> div > div[data-testid="top-picks--title"]),
+        // awards won (just under movie info)
+        section[cel_widget_id="StaticFeature_Awards"],
+        // gallery about that movie/tv
+        section:has( > section[data-testid="main-column-editorial-single"]) {
+            display: none;
+        }
+
+        // right side more to explore
+        section.right-rail-more-to-explore {
+            display: none;
+        }
+
+        // repeated movie info
+        section[data-testid="title-cast"] > ul {
+            display: none;
+        }
+
+        // See production info at IMDbPro
+        li:has(#ProUpsellLink) {
+            display: none;
+        }
+
+        // watch option above add to watchlist (streaming platform)
+        div:not([class]) > div:has(div[data-testid="tm-box-woc-text"]) {
+            display: none;
+        }
+
+        // videos, photos button just below trailer
+        #ublock[domain="m.imdb.com"]div:has(> a[data-testid="hero__video-link"], > a[data-testid="hero__photo-link"]) {
+            display: none;
+        }
+
+        // review scores, metascore, critic reviews under add to watchlist
+        ul[data-testid="reviewContent-all-reviews"] {
+            display: none;
+        }
+
+        // more like this section more info button
+        section[data-testid="MoreLikeThis"] div:has(> a[aria-label="More information"]) {
+            display: none;
+        }
+
+        // see more company credits at IMDB pro located in details section
+        section[data-testid="Details"] .ipc-metadata-list li[data-testid="title-details-companycredits"] {
+            display: none;
+        }
+
+        .ipc-page-section {
+            // just below titlebar => cast & crew, user reviews, trivia, faq, imdb pro, all topics, share etc...
+            div:has(> div[data-testid="hero-subnav-bar-left-block"], > div[data-testid="hero-subnav-bar-right-block"]) {
+                visibility: hidden !important;
+                height: 20px !important;
+            }
+        }
+    }
+}

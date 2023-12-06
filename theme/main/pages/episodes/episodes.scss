@@ -1,0 +1,12 @@
+.ipc-page-content-container--full {
+    .ipc-page-content-container.ipc-page-content-container--center {
+        section[data-testid="Episodes"] {
+            // top rated episodes header
+            & > div[data-testid="episodes-header"],
+        // top rated episodes just before browse episodes
+        & > div[data-testid="episodes-header"] + div > div:not([data-testid="episodes-browse-episodes"]) {
+                display: none;
+            }
+        }
+    }
+}

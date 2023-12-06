@@ -1,0 +1,21 @@
+@use "most-popular-movies";
+@use "top250";
+
+// sidebar in list page => create new list/tell your friends/feedback/your list
+#content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget) {
+    display: none;
+}
+
+// recently viewed
+#rvi-div > .recently-viewed {
+    display: none;
+}
+
+.lister-item-content {
+    // director, stars in list items
+    & > p:has(a[href*="/name/"]),
+    // watch option in list items
+    & > div.wtw-option-standalone {
+        display: none;
+    }
+}

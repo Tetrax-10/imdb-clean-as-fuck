@@ -1,0 +1,77 @@
+// better cards
+.ipc-poster-card {
+    // rounded cards
+    border-radius: 8px;
+    .ipc-media__img {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 5px;
+    }
+    .ipc-watchlist-ribbon__bg {
+        // add to watchlist ribbon
+        border-top-left-radius: 8px;
+
+        // ribbon shadow
+        .ipc-watchlist-ribbon__bg-shadow {
+            display: none;
+        }
+    }
+
+    // rate button
+    .ipc-rate-button {
+        display: none;
+    }
+
+    // poster action button => trailer, info, watchlist
+    .ipc-poster-card__actions {
+        display: none;
+    }
+
+    // [hash] (hash reason: top 250 cards has that hash) cards except top 250 movie's cards
+    &:has(.ipc-poster-card__title:not(.kXDhzW)) {
+        // remove extra padding
+        padding-bottom: 0;
+        // cards info center text horizontally
+        text-align: center;
+
+        // ratings container
+        .ipc-rating-star-group {
+            // ratings in cards (ratings and rate button)
+            align-self: center;
+            padding: 2px 6px;
+            min-height: unset;
+            position: absolute;
+            right: 0;
+            align-items: center;
+            background-color: rgba(var(--ipt-baseAlt-shade1-rgb), 0.75);
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 10px;
+
+            // ratings
+            .ipc-rating-star--imdb {
+                color: #cfcdcb;
+                margin-right: unset;
+            }
+        }
+
+        // card's title container
+        .ipc-poster-card__title {
+            white-space: nowrap;
+            max-width: 180px;
+
+            // actual text
+            & > span {
+                vertical-align: -webkit-baseline-middle;
+            }
+
+            // remove decoration
+            &.ipc-poster-card__title--clickable:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// watch on (streaming platform) (inside info button)
+div:has(> div + ul.ipc-list) {
+    display: none;
+}

@@ -1,0 +1,9 @@
+// Browse these IMDb collections
+// (https://www.imdb.com/what-to-watch/)
+div[role="tabpanel"] > div > div:has-text(/Browse these IMDb collections/i) {
+    display: none;
+}
+// (https://www.imdb.com/what-to-watch/from-your-watchlist/) (don't join the above selector with this, idk it doesnt work for some reason)
+section:has(> div > p:has-text(/Browse these IMDb collections/i)) {
+    display: none;
+}

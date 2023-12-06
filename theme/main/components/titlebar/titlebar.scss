@@ -1,0 +1,12 @@
+nav#imdbHeader {
+    // imdb pro button
+    .navbar__imdbpro,
+    // language selector dropdown
+    div:has( > label[aria-label="Toggle language selector"]) {
+        display: none;
+    }
+    // use app button
+    #ublock[domain="m.imdb.com"]a[aria-label="Use app"] {
+        display: none;
+    }
+}

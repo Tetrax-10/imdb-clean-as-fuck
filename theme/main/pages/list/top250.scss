@@ -1,0 +1,6 @@
+// right side "More to explore" heading
+section[data-testid="chart-layout-sidebar"] > div[class],
+// right side "More to explore" contents
+section[data-testid="chart-layout-sidebar"] > div[data-testid] {
+    display: none;
+}

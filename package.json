@@ -1,0 +1,16 @@
+{
+    "name": "imdb-clean-as-fuck",
+    "description": "Removes bloat from IMDB website and styles it to make it look good with orginality",
+    "author": "Tetrax-10",
+    "license": "MIT",
+    "main": "scripts/build.js",
+    "type": "module",
+    "scripts": {
+        "build-filter-list": "node scripts/build.js",
+        "build-filter-list-personal": "node scripts/build.js --personal"
+    },
+    "dependencies": {
+        "@adobe/css-tools": "^4.3.2",
+        "sass": "^1.69.5"
+    }
+}
