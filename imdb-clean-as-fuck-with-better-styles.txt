@@ -37,6 +37,7 @@ imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=MoreLikeThis] div:has(>a[aria-label="More information"])
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Details] .ipc-metadata-list li[data-testid=title-details-companycredits]
 imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .ipc-page-section div:has(>div[data-testid=hero-subnav-bar-left-block],>div[data-testid=hero-subnav-bar-right-block]){visibility:hidden !important;height:20px !important;}
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center div:has(>div[data-testid=hero-rating-bar__user-rating])>div[data-testid*=hero-rating-bar__]>div
 imdb.com##.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>section>div>div>div:has(>section[data-testid=more-results-section],>section[data-testid=advanced-search-section])
 imdb.com##.results-section-exact-match-btn
 imdb.com##div[role=tabpanel]>div>div:has-text(/Browse these IMDb collections/i)
