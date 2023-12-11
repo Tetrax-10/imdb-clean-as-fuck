@@ -113,5 +113,10 @@
                 height: 20px !important;
             }
         }
+
+        // ratings, polularity titles just below the title bar
+        div:has(> div[data-testid="hero-rating-bar__user-rating"]) > div[data-testid*="hero-rating-bar__"] > div {
+            display: none;
+        }
     }
 }
