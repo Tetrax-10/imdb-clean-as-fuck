@@ -118,5 +118,10 @@
         div:has(> div[data-testid="hero-rating-bar__user-rating"]) > div[data-testid*="hero-rating-bar__"] > div {
             display: none;
         }
+
+        // mobile rating n/10 remove "/10"
+        #ublock[domain="m.imdb.com"]div[data-testid="hero-rating-bar__aggregate-rating__score"] > span:has-text("/") {
+            display: none;
+        }
     }
 }
