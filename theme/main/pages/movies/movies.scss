@@ -104,15 +104,16 @@
             display: none;
         }
 
+        // just below titlebar => cast & crew, user reviews, trivia, faq, imdb pro, all topics, share etc...
         .ipc-page-section {
-            // just below titlebar => cast & crew, user reviews, trivia, faq, imdb pro, all topics, share etc...
-            div:has(> div[data-testid="hero-subnav-bar-left-block"], > div[data-testid="hero-subnav-bar-right-block"]) {
+            div:has(> div[data-testid="hero-subnav-bar-left-block"]),
+            div:has(> div[data-testid="hero-subnav-bar-right-block"]:not(:has(> .ipc-responsive-button[data-testid="hero-list-subnav-edit-button"]))) {
                 visibility: hidden !important;
                 height: 20px !important;
             }
         }
 
-        // ratings, polularity titles just below the title bar
+        // ratings, polularity titles just below the title bar (heading)
         div:has(> div[data-testid="hero-rating-bar__user-rating"]) > div[data-testid*="hero-rating-bar__"] > div {
             display: none;
         }
