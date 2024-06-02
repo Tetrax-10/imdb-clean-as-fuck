@@ -1,6 +1,20 @@
 @use "most-popular-movies";
 @use "top250";
 
+ul.compact-list-view {
+    // compact view list item
+    .ipc-metadata-list-summary-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    // compact view list poster element
+    li.ipc-metadata-list-summary-item > :first-child {
+        margin-right: 1rem;
+        width: 7rem;
+    }
+}
+
 // sidebar in list page => create new list/tell your friends/feedback/your list
 #content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget) {
     display: none;
