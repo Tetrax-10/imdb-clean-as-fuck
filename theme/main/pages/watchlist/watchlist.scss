@@ -1,0 +1,7 @@
+// remove watchlist, ratings page description
+div[data-testid="list-author-and-metrics"] > :not(:first-child) {
+    display: none;
+}
+div[data-testid="list-author-and-metrics"]:has(+ .list-description.editable-trigger) > :first-child {
+    margin-bottom: 1.5rem;
+}
