@@ -21,6 +21,8 @@ imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page
 imdb.com##.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center div[data-testid=whatToWatch_title],.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div.ipc-page-grid:not(.page-grid),.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div.ipc-page-grid:has(div#featured-today,iframe,section.more-to-watch,div#imdb-originals,#editors-picks,#born-today,#top-news),.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div:has(#in-theaters,#top-box-office,#coming-soon-movie)
 imdb.com##.ipc-poster-card .gli-meter-title-header
 imdb.com##section[data-testid=chart-layout-sidebar]>div[class],section[data-testid=chart-layout-sidebar]>div[data-testid]
+imdb.com#$#ul.compact-list-view .ipc-metadata-list-summary-item{padding-top:20px !important;padding-bottom:20px !important;}
+imdb.com#$#ul.compact-list-view li.ipc-metadata-list-summary-item>:first-child{margin-right:1rem !important;width:7rem !important;}
 imdb.com###content-2-wide:not([class]) #sidebar>div:not(.list-activity-widget)
 imdb.com###rvi-div>.recently-viewed
 imdb.com##.lister-item-content>p:has(a[href*="/name/"]),.lister-item-content>div.wtw-option-standalone
