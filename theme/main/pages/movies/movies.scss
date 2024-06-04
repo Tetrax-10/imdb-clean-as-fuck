@@ -107,7 +107,7 @@
         // just below titlebar => cast & crew, user reviews, trivia, faq, imdb pro, all topics, share etc...
         .ipc-page-section {
             div:has(> div[data-testid="hero-subnav-bar-left-block"]),
-            div:has(> div[data-testid="hero-subnav-bar-right-block"]:not(:has(> .ipc-responsive-button[data-testid="hero-list-subnav-edit-button"]))) {
+            div:has(> div[data-testid="hero-subnav-bar-right-block"]:not(:has(> div[data-testid="hero-list-subnav-export-button"]))) {
                 visibility: hidden !important;
                 height: 20px !important;
             }
