@@ -9,4 +9,9 @@ nav#imdbHeader {
     #ublock[domain="m.imdb.com"]a[aria-label="Use app"] {
         display: none;
     }
+
+    // hide imdb events from search's top result
+    li.react-autosuggest__suggestion--first:has(> a:not([href^="/name"]):not([href^="/title"])) {
+        display: none;
+    }
 }
