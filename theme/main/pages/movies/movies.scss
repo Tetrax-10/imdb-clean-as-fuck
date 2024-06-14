@@ -19,9 +19,12 @@
 .ipc-page-content-container--full {
     .ipc-page-content-container.ipc-page-content-container--center {
         // cast people images
+        .title-cast-item__avatar {
+            min-width: calc(36% - 1.3125rem);
+        }
         section[data-testid="title-cast"] {
             .ipc-media--avatar-circle {
-                border-radius: 5px;
+                border-radius: 0.75rem;
             }
             .ipc-avatar {
                 &,
@@ -36,7 +39,7 @@
         section[data-testid="Photos"] {
             .ipc-media--base,
             .ipc-image {
-                border-radius: 5px;
+                border-radius: 0.75rem;
             }
         }
 
