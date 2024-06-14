@@ -1,7 +1,5 @@
-imdb.com##.ipc-poster-card .ipc-watchlist-ribbon__bg .ipc-watchlist-ribbon__bg-shadow
-imdb.com##.ipc-poster-card .ipc-rate-button
-imdb.com##.ipc-poster-card .ipc-poster-card__actions
-imdb.com##div:has(>div+ul.ipc-list)
+imdb.com##.ipc-poster-card__actions
+imdb.com##.gtc-title-metadata
 imdb.com##footer.imdb-footer
 imdb.com##.imdb-header__nav-drawer .navlinkcat:has(input[data-category-id=video],#nav-link-categories-awards,#nav-link-categories-celebs,#nav-link-categories-comm)
 imdb.com##.imdb-header__nav-drawer .navlinkcat__listContainerInner>ul>a:has-text(/Movie Spotlight|Movie News|Showtimes & Tickets|on TV & Streaming|TV News/i)

@@ -1,16 +1,13 @@
-imdb.com#$#.ipc-poster-card{border-radius:8px !important;}
-imdb.com#$#.ipc-poster-card .ipc-media__img{border-top-left-radius:8px !important;border-top-right-radius:5px !important;}
-imdb.com#$#.ipc-poster-card .ipc-watchlist-ribbon__bg{border-top-left-radius:8px !important;}
-imdb.com##.ipc-poster-card .ipc-watchlist-ribbon__bg .ipc-watchlist-ribbon__bg-shadow
-imdb.com##.ipc-poster-card .ipc-rate-button
-imdb.com##.ipc-poster-card .ipc-poster-card__actions
-imdb.com#$#.ipc-poster-card:has(.ipc-poster-card__title:not(.kXDhzW)){padding-bottom:0 !important;text-align:center !important;}
-imdb.com#$#.ipc-poster-card:has(.ipc-poster-card__title:not(.kXDhzW)) .ipc-rating-star-group{align-self:center !important;padding:2px 6px !important;min-height:unset !important;position:absolute !important;right:0 !important;align-items:center !important;background-color:rgba(var(--ipt-baseAlt-shade1-rgb), 0.75) !important;border-top-right-radius:5px !important;border-bottom-left-radius:10px !important;}
-imdb.com#$#.ipc-poster-card:has(.ipc-poster-card__title:not(.kXDhzW)) .ipc-rating-star-group .ipc-rating-star--imdb{color:#cfcdcb !important;margin-right:unset !important;}
-imdb.com#$#.ipc-poster-card:has(.ipc-poster-card__title:not(.kXDhzW)) .ipc-poster-card__title{white-space:nowrap !important;max-width:180px !important;}
-imdb.com#$#.ipc-poster-card:has(.ipc-poster-card__title:not(.kXDhzW)) .ipc-poster-card__title>span{vertical-align:-webkit-baseline-middle !important;}
-imdb.com#$#.ipc-poster-card:has(.ipc-poster-card__title:not(.kXDhzW)) .ipc-poster-card__title.ipc-poster-card__title--clickable:hover{text-decoration:none !important;}
-imdb.com##div:has(>div+ul.ipc-list)
+imdb.com#$#.ipc-poster-card:has(>.ipc-poster-card__actions){padding-bottom:0 !important;}
+imdb.com##.ipc-poster-card__actions
+imdb.com#$#.ipc-poster-card__title{white-space:nowrap !important;text-align:center !important;display:inline-block !important;}
+imdb.com#$#.ipc-poster-card__title>span{vertical-align:-webkit-baseline-middle !important;}
+imdb.com#$#.ipc-poster-card__title.ipc-poster-card__title--clickable:hover{text-decoration:none !important;}
+imdb.com#$#.ipc-rating-star-group{align-self:center !important;}
+imdb.com#$#.ipc-rating-star-group .ipc-rating-star--currentUser,.ipc-rating-star-group .ipc-rating-star--imdb{margin:0 .5rem !important;}
+imdb.com#$#.ipc-poster-card__title:has(+.gtc-title-metadata){padding-top:1rem !important;}
+imdb.com##.gtc-title-metadata
+imdb.com#$#.gli-rating-group:has(~.gtc-title-metadata) .ipc-rate-button.ipc-rate-button--rated .ipc-rating-star{padding:0px .5rem !important;}
 imdb.com##footer.imdb-footer
 imdb.com##.imdb-header__nav-drawer .navlinkcat:has(input[data-category-id=video],#nav-link-categories-awards,#nav-link-categories-celebs,#nav-link-categories-comm)
 imdb.com##.imdb-header__nav-drawer .navlinkcat__listContainerInner>ul>a:has-text(/Movie Spotlight|Movie News|Showtimes & Tickets|on TV & Streaming|TV News/i)
@@ -28,8 +25,9 @@ imdb.com###content-2-wide:not([class]) #sidebar>div:not(.list-activity-widget)
 imdb.com###rvi-div>.recently-viewed
 imdb.com##.lister-item-content>p:has(a[href*="/name/"]),.lister-item-content>div.wtw-option-standalone
 imdb.com#$#.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1,.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__btn,.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__iconBtn,.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1,.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__btn,.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__iconBtn{background:#f5c518 !important;color:#000 !important;border-radius:10px !important;}
-imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-media--avatar-circle,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar .ipc-lockup-overlay,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar .ipc-lockup-overlay__screen{border-radius:5px !important;}
-imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Photos] .ipc-media--base,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Photos] .ipc-image{border-radius:5px !important;}
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .title-cast-item__avatar{min-width:calc(36% - 1.3125rem) !important;}
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-media--avatar-circle,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar .ipc-lockup-overlay,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar .ipc-lockup-overlay__screen{border-radius:.75rem !important;}
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Photos] .ipc-media--base,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Photos] .ipc-image{border-radius:.75rem !important;}
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=videos-section],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=DidYouKnow],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Storyline] ul.ipc-metadata-list,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=News],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=BoxOffice],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=contribution],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[cel_widget_id=StaticFeature_FAQ],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section:has(>div>div[data-testid=top-picks--title]),.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[cel_widget_id=StaticFeature_Awards],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section:has(>section[data-testid=main-column-editorial-single])
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .right-rail-more-to-explore
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast]>ul
