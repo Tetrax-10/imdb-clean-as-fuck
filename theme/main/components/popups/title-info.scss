@@ -1,0 +1,16 @@
+.ipc-promptable-base__panel {
+    .ipc-promptable-base__content {
+        & > div {
+            padding-bottom: 0;
+
+            // credits/episode no/year
+            & > div:is(:has(> .ipc-expandableSection), :has(> .character-summary-episodic-credit)) {
+                display: none;
+            }
+            // hide streaming services
+            & > div:has(> div:has-text(/STREAMING/i)) {
+                display: none;
+            }
+        }
+    }
+}
