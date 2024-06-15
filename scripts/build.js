@@ -13,12 +13,16 @@ let imdbCleanAsFuckWithBetterStylesPersonal = ""
 for (const rule of parsedThemeCss.stylesheet.rules) {
     let allSelectors = ""
     let isMobile = false
+    let isDesktop = false
     let isPersonal = false
     let isFirstSelector = true
     for (const selector of rule.selectors) {
         if (selector.includes('#ublock[domain="m.imdb.com"]')) {
             allSelectors += `${isFirstSelector ? "" : ","}${selector.replaceAll('#ublock[domain="m.imdb.com"]', "")}`
             isMobile = true
+        } else if (selector.includes('#ublock[domain="www.imdb.com"]')) {
+            allSelectors += `${isFirstSelector ? "" : ","}${selector.replaceAll('#ublock[domain="www.imdb.com"]', "")}`
+            isDesktop = true
         } else if (selector.includes("#ublock[personal]")) {
             allSelectors += `${isFirstSelector ? "" : ","}${selector.replaceAll("#ublock[personal]", "")}`
             isPersonal = true
@@ -47,7 +51,7 @@ for (const rule of parsedThemeCss.stylesheet.rules) {
         }
     }
 
-    const filter = `${isMobile ? "m." : ""}imdb.com#${isHide ? "" : "$"}#${allSelectors}${isHide ? "" : `{${allDeclarations}}`}\n`
+    const filter = `${isMobile ? "m." : isDesktop ? "www." : ""}imdb.com#${isHide ? "" : "$"}#${allSelectors}${isHide ? "" : `{${allDeclarations}}`}\n`
 
     if (!isPersonal) {
         if (!isBetterStyles) imdbCleanAsFuck += filter

@@ -1,5 +1,5 @@
 // cards with actions
-.ipc-poster-card:has(> .ipc-poster-card__actions) {
+#ublock[domain="www.imdb.com"].ipc-poster-card:has(> .ipc-poster-card__actions) {
     padding-bottom: 0;
 }
 
