@@ -1,4 +1,4 @@
-imdb.com#$#.ipc-poster-card:has(>.ipc-poster-card__actions){padding-bottom:0 !important;}
+www.imdb.com#$#.ipc-poster-card:has(>.ipc-poster-card__actions){padding-bottom:0 !important;}
 imdb.com##.ipc-poster-card__actions
 imdb.com#$#.ipc-poster-card__title{white-space:nowrap !important;text-align:center !important;display:inline-block !important;}
 imdb.com#$#.ipc-poster-card__title>span{vertical-align:-webkit-baseline-middle !important;}
