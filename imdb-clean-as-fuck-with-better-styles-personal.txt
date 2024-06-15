@@ -12,6 +12,9 @@ imdb.com##footer.imdb-footer
 imdb.com##.imdb-header__nav-drawer .navlinkcat:has(input[data-category-id=video],#nav-link-categories-awards,#nav-link-categories-celebs,#nav-link-categories-comm)
 imdb.com##.imdb-header__nav-drawer .navlinkcat__listContainerInner>ul>a:has-text(/Movie Spotlight|Movie News|Showtimes & Tickets|on TV & Streaming|TV News/i)
 m.imdb.com##.imdb-header__nav-drawer  a[href*="https://pro.imdb"],.imdb-header__nav-drawer  label[aria-label=language-select]
+imdb.com#$#.ipc-promptable-base__panel .ipc-promptable-base__content>div{padding-bottom:0 !important;}
+imdb.com##.ipc-promptable-base__panel .ipc-promptable-base__content>div>div:is(:has(>.ipc-expandableSection),:has(>.character-summary-episodic-credit))
+imdb.com##.ipc-promptable-base__panel .ipc-promptable-base__content>div>div:has(>div:has-text(/STREAMING/i))
 imdb.com##nav#imdbHeader .navbar__imdbpro,nav#imdbHeader div:has(>label[aria-label="Toggle language selector"])
 m.imdb.com##nav#imdbHeader  a[aria-label="Use app"]
 imdb.com##nav#imdbHeader li.react-autosuggest__suggestion--first:has(>a:not([href^="/name"]):not([href^="/title"]))
@@ -42,9 +45,10 @@ imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-pag
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center div:has(>div[data-testid=hero-rating-bar__user-rating])>div[data-testid*=hero-rating-bar__]>div
 m.imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center  div[data-testid=hero-rating-bar__aggregate-rating__score]>span:has-text("/")
 imdb.com##.starmeter-logo
-imdb.com##ul.ipc-metadata-list.ipc-metadata-list:has(>li>a[href*=pro])
+imdb.com##ul.ipc-metadata-list>li:has(>a[href*=pro])
 imdb.com##.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>section>div>div>div:has(>section[data-testid=more-results-section],>section[data-testid=advanced-search-section])
 imdb.com##.results-section-exact-match-btn
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section:has(>section[data-testid=embeddable-section])
 imdb.com##div[data-testid=list-author-and-metrics]>:not(:first-child)
 imdb.com#$#div[data-testid=list-author-and-metrics]:has(+.list-description.editable-trigger)>:first-child{margin-bottom:1.5rem !important;}
 imdb.com##div[role=tabpanel]>div>div:has-text(/Browse these IMDb collections/i)
