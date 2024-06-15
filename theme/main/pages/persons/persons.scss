@@ -4,6 +4,6 @@
 }
 
 // More at IMDbPro, In-development projects at IMDbPro
-ul.ipc-metadata-list.ipc-metadata-list:has(> li > a[href*="pro"]) {
+ul.ipc-metadata-list > li:has(> a[href*="pro"]) {
     display: none;
 }
