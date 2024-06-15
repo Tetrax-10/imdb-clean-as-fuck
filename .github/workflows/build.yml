@@ -32,6 +32,9 @@ jobs:
             - name: Build filter list
               run: npm run build-filter-list
 
+            - name: Build filter list personal
+              run: npm run build-filter-list-personal
+
             - name: Publish filter list
               uses: s0/git-publish-subdir-action@develop
               env:
