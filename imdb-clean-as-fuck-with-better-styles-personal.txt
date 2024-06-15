@@ -17,6 +17,7 @@ m.imdb.com##nav#imdbHeader  a[aria-label="Use app"]
 imdb.com##nav#imdbHeader li.react-autosuggest__suggestion--first:has(>a:not([href^="/name"]):not([href^="/title"]))
 imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Episodes]>div[data-testid=episodes-header],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Episodes]>div[data-testid=episodes-header]+div>div:not([data-testid=episodes-browse-episodes])
 imdb.com##.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center div[data-testid=whatToWatch_title],.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div.ipc-page-grid:not(.page-grid),.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div.ipc-page-grid:has(div#featured-today,iframe,section.more-to-watch,div#imdb-originals,#editors-picks,#born-today,#top-news),.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div:has(#in-theaters,#top-box-office,#coming-soon-movie)
+imdb.com#$#.ipc-page-content-container--center{max-width:98% !important;}
 imdb.com##.ipc-poster-card .gli-meter-title-header
 imdb.com##section[data-testid=chart-layout-sidebar]>div[class],section[data-testid=chart-layout-sidebar]>div[data-testid]
 imdb.com#$#ul.compact-list-view .ipc-metadata-list-summary-item{padding-top:20px !important;padding-bottom:20px !important;}
