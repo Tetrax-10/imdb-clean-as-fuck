@@ -1,5 +1,7 @@
 .ipc-page-content-container--full {
     & > .ipc-page-content-container.ipc-page-content-container--center {
+        // Most popular celebrities
+        section[cel_widget_id="DynamicFeature_PopularCelebrities"],
         // what to watch
         div[data-testid="whatToWatch_title"],
         // big horizontally scrolable banners
